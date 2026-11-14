@@ -1,0 +1,13 @@
+:root{font-family:system-ui,sans-serif;color:#20243a;background:#f3f4ff}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:22px}
+.app{width:min(500px,100%);text-align:center}.eyebrow{font-size:10px;letter-spacing:.16em;font-weight:800;color:#777d91}
+h1{font-size:48px;letter-spacing:-.06em;margin:0}h1 span{color:#5b62d6}
+header>p:last-child{color:#777d91;margin-top:6px}
+.card{margin:24px 0 14px;padding:26px 18px;background:white;border:1px solid #e7e8f0;border-radius:22px;box-shadow:0 14px 40px #20243a0d}
+nav{display:flex;justify-content:center;gap:8px}.mode,.secondary{background:#f0f1f8;color:#555b70}
+button{border:0;border-radius:10px;padding:11px 17px;font:inherit;font-weight:700;cursor:pointer}
+.mode.active,#start{background:#5b62d6;color:white}
+#clock{font-size:clamp(76px,18vw,108px);font-weight:750;letter-spacing:-.07em;font-variant-numeric:tabular-nums;margin-top:20px}
+#status,.count{color:#777d91}#start{min-width:130px}.count{margin-top:22px;font-size:13px}
+.notify{font-size:13px;color:#555b70}.notify input{accent-color:#5b62d6}
+footer{margin-top:24px;color:#777d91;font-size:12px}
